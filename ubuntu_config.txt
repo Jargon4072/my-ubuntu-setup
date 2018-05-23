@@ -18,3 +18,22 @@ E627DDBA 960A2153 69A2D98A C87C0607
 
 
 apm install emmet atom-beautify ask-stack git-plus git-time-machine linter project-manager highlight-selected file-icons pigments minimap expose autocomplete-paths color-picker atom-css-comb language-docker linter-clang linter-pylama linter-eslint linter-cpplint atom-build-make advance-open-file imdone-atom merge-conflicts project-plus platformio-ide-terminal script todo-show docblockr livestyle-atom tool-bar tool-bar-almighty atom-clock tomatimer gpp-compiler wakatime teletype hydrogen data-atom
+
+
+java install commands:
+
+for JDK 10:
+update-alternatives --install /usr/bin/java java /opt/jdk-10/bin/java 1
+update-alternatives --install /usr/bin/javac javac /opt/jdk-10/bin/javac 1
+update-alternatives --install /usr/lib/firefox/browser/plugins/libjavaplugin.so mozilla-javaplugin.so /opt/jdk-10/lib/libnpjp2.so 1
+update-alternatives --set java /opt/jdk-10/bin/java
+update-alternatives --set javac /opt/jdk-10/bin/javac
+update-alternatives --set mozilla-javaplugin.so /opt/jdk-10/lib/libnpjp2.so
+
+for JDK 8(recommended):
+update-alternatives --install /usr/bin/java java /opt/jdk1.8.0_171/bin/java 1
+update-alternatives --install /usr/bin/javac javac /opt/jdk1.8.0_171/bin/javac 1
+update-alternatives --install /usr/lib/mozilla/plugins/libjavaplugin.so mozilla-javaplugin.so /opt/jdk1.8.0_171/jre/lib/amd64/libnpjp2.so 1
+update-alternatives --set java /opt/jdk1.8.0_171/bin/java
+update-alternatives --set javac /opt/jdk1.8.0_171/bin/javac
+update-alternatives --set mozilla-javaplugin.so /opt/jdk1.8.0_171/jre/lib/amd64/libnpjp2.so
