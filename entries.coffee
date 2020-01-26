@@ -1,46 +1,46 @@
 module.exports = [
   {
-    type: 'button',
-    tooltip: 'New File',
-    callback: 'application:new-file',
-    icon: 'plus',
-    iconset: 'ion'
+    type: 'button'
+    tooltip: 'New File'
+    callback: 'application:new-file'
+    icon: 'plus'
+    iconset: 'fa'
   },
   {
     type: 'button'
     tooltip: 'Open File'
     callback: 'application:open-file'
-    icon: 'document-text'
-    iconset: 'ion'
+    icon: 'file'
+    iconset: 'fa'
   },
   {
     type: 'button'
     tooltip: 'Open Folder'
     callback: 'application:open-folder'
     icon: 'folder'
-    iconset: 'ion'
+    iconset: 'fa'
   },
   {
     type: 'button'
     tooltip: 'Save File'
     callback: 'core:save'
-    icon: 'archive'
-    iconset: 'ion'
+    icon: 'save'
+    iconset: 'fa'
   },
   {
     type: 'button'
     tooltip: 'Git Control'
     dependency: 'git-control'
     callback: 'git-control:toggle'
-    icon: 'social-octocat'
-    iconset: 'ion'
+    icon: 'github-face'
+    iconset: 'mdi'
   },
   {
     type: 'button'
     tooltip: 'Git Projects'
     dependency: 'git-projects'
     callback: 'git-projects:toggle'
-    icon: 'git'
+    icon: 'github-square'
     iconset: 'fa'
   },
   {
@@ -75,7 +75,7 @@ module.exports = [
     tooltip: 'Merge Conflicts'
     dependency: 'merge-conflicts'
     callback: 'merge-conflicts:detect'
-    icon: 'code-fork'
+    icon: 'code-branch'
     iconset: 'fa'
   },
   {
@@ -97,8 +97,8 @@ module.exports = [
     tooltip: 'Toggle Minimap'
     dependency: 'minimap'
     callback: 'minimap:toggle'
-    icon: 'map'
-    iconset: 'ion'
+    icon: 'columns'
+    iconset: 'fa'
   },
   {
     type: 'spacer'
@@ -114,14 +114,14 @@ module.exports = [
     type: 'button'
     tooltip: 'Fold all'
     callback: 'editor:fold-all'
-    icon: 'level-up'
+    icon: 'angle-right'
     iconset: 'fa'
   },
   {
     type: 'button'
     tooltip: 'Unfold all'
     callback: 'editor:unfold-all'
-    icon: 'level-down'
+    icon: 'angle-down'
     iconset: 'fa'
   },
   {
@@ -131,10 +131,9 @@ module.exports = [
     type: 'button'
     tooltip: 'Browser'
     callback: 'browser-plus:open'
-    icon: 'social-chrome'
-    iconset: 'ion'
-  }, 
-
+    icon: 'firefox'
+    iconset: 'mdi'
+  },
   {
     type: 'spacer'
   },
@@ -142,7 +141,7 @@ module.exports = [
     type: 'button'
     tooltip: 'start timer'
     callback: 'tomatimer:start'
-    icon: 'clock-o'
+    icon: 'hourglass-start'
     iconset: 'fa'
   },
   {
@@ -156,15 +155,15 @@ module.exports = [
     type: 'button'
     tooltip: 'timer pause/resume'
     callback: 'tomatimer:pause-or-resume'
-    icon: 'android-stopwatch'
-    iconset: 'ion'
+    icon: 'stopwatch'
+    iconset: 'fa'
   },
   {
     type: 'button'
     tooltip: 'reset timer'
     callback: 'tomatimer:reset'
-    icon: 'ios-undo-outline'
-    iconset: 'ion'
+    icon: 'undo'
+    iconset: 'fa'
   },
   {
     type: 'spacer'
@@ -187,8 +186,8 @@ module.exports = [
     type: 'button'
     tooltip: 'Database-execute'
     callback: 'data-atom:execute'
-    icon: 'soup-can-outline'
-    iconset: 'ion'
+    icon: 'database'
+    iconset: 'fa'
   },
   {
     type: 'spacer'
@@ -197,8 +196,8 @@ module.exports = [
     type: 'button'
     tooltip: 'Reload Window'
     callback: 'window:reload'
-    icon: 'refresh'
-    iconset: 'ion'
+    icon: 'redo'
+    iconset: 'fa'
   },
   {
     type: 'button'
@@ -210,14 +209,14 @@ module.exports = [
     type: 'button'
     tooltip: 'command palette'
     callback: 'command-palette:toggle'
-    icon: 'compose'
-    iconset: 'ion'
+    icon: 'newspaper'
+    iconset: 'fa'
   },
   {
     type: 'button'
     tooltip: 'Open Settings View'
     callback: 'settings-view:open'
-    icon: 'gear-a'
-    iconset: 'ion'
+    icon: 'cogs'
+    iconset: 'fa'
   }
 ]
