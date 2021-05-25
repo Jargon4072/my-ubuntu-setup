@@ -15,7 +15,9 @@ E627DDBA 960A2153 69A2D98A C87C0607
 45DC6049 8C04EC29 D18DFA40 442C680B
 1342224D 44D90641 33A3B9F2 46AADB8F
 
+// packages to consider: minimap-lens
 
+//hydrogen may give some issues with python3 but it will work at the end. to resolve it try ipykernal install in your user (and root too)
 
 apm install emmet atom-beautify ask-stack git-plus git-time-machine linter project-manager highlight-selected file-icons pigments minimap expose autocomplete-paths color-picker atom-css-comb language-docker linter-clang linter-pylama linter-eslint linter-cpplint atom-build-make advance-open-file imdone-atom merge-conflicts project-plus platformio-ide-terminal script todo-show docblockr livestyle-atom tool-bar tool-bar-almighty atom-clock tomatimer gpp-compiler wakatime teletype hydrogen data-atom
 
